@@ -1,0 +1,32 @@
+body {
+	margin: 0;
+	padding: 0;
+}
+
+button {
+	padding: .5rem 1rem;
+	font-size: 1.8rem;
+	color: white;
+	background-color: #536dfe;
+	border-radius: .5rem;
+	outline: none;
+	border-style: none;
+	cursor: pointer;
+}
+
+button:hover {
+	filter: brightness(105%);
+}
+
+#map {
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	width: 100%;
+}
+
+.map-overlay {
+	position: absolute;
+	left: 0;
+	padding: 10px;
+}
